@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+nav {
+    display: flex;
+    margin-left: 10px;
+}  
+.nav {
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.logo {
+    width: 60px;
+}
+.fas {
+    color: white;
+}
+.fa-bell {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.fa-shopping-cart {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.icon {
+    width: 12px;
+    margin-left: -300px;
+}
+.input {
+    width: 95vw;
+    margin-left: 7px;
+    height: 32px;
+    font-size: 12px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    border: inherit;
+    border-radius: 2px;
+}
+.fa-microphone{
+    color: rgb(4,133,206);
+    margin-left: 260px;
+    border-radius: 2px;
+}
+.sale {
+    width: 100vw;
+    height: 150px;
+}
+.first {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.offer {
+    width: 75px;
+}
+.electronics {
+    width: 70px;
+}
+.appliances {
+    width: 70px;
+}
+.beauty {
+    width: 70px;
+}
+.launch {
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+.fashion {
+    width: 70px;
+}
+.home {
+    width: 70px;
+}
+.travel {
+    width: 70px;
+}
+h5 {
+    font-family: sans-serif;
+}
+.boat {
+    width: 100vw;
+    margin-bottom: 10px;
+}
+.show {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.box1 {
+    width: 100px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 3px;
+    background-color: rgb(206, 206, 206);
+}
+p {
+    color: green;
+    background-color: rgb(147, 247, 147);
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.realme8 {
+    width: 100px;
+    height: 95px;
+}
+.box2 {
+    width: 100px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 3px;
+    background-color: rgb(206, 206, 206);
+}
+.realmeC20 {
+    width: 100px;
+    height: 95px;
+}
+span {
+    color: gray;
+    font-size: 8px;
+    margin-left: 30px;
+}
+.box3 {
+    width: 100px;
+    height: 200px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+.realme5G {
+    width: 100px;
+    height: 95px;
+}
+.box-tv {
+    width: 150px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+.one {
+    width: 150px;
+    height: 150px;
+}
+.box-poco {
+    width: 150px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    
+}
+.two {
+    width: 150px;
+    height: 150px;
+}
+.slide1 {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    border-bottom: 1px solid gray;
+}
+.box-dress {
+    width: 150px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+.three {
+    width: 150px;
+    height: 150px;
+}
+.box-iphone {
+    width: 150px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+.four {
+    width: 150px;
+    height: 150px;
+}
+.brand {
+    width: 96vw;
+    height: 200px;
+    background-color: rgb(236, 68, 96);
+    border-radius: 3px;
+    margin: 0 auto;
+    display: flex;
+}
+.brand h3 {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+button {
+    width: 70px;
+    height: 33px;
+    border-radius: 10px;
+    border-width: inherit;
+    margin-top: 11px;
+    color: rgb(58, 57, 57);
+    font-weight: bolder;
+    margin-left: 90px;
+}
+.off {
+    width: 96vw;
+    height: 120px;
+    background-color:rgb(236, 68, 96) ;
+    margin: 0 auto;
+    margin-top: -2px;
+}
+.set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.class1 {
+    width: 45vw;
+    height: 115px;
+    border: 1px solid gray;
+    margin-top: -140px;
+}
+.class2 {
+    width: 45vw;
+    height: 115px;
+    border: 1px solid gray;
+    margin-top: -140px;
+}
+.class3 {
+    width: 45vw;
+    height: 115px;
+    border: 1px solid gray;
+    margin-top: -15px;
+}
+.class4 {
+    width: 45vw;
+    height: 115px;
+    border: 1px solid gray;
+    margin-top: -15px;
+}
+.cabinet {
+    width: 45vw;
+    height: 118px;
+}
+.shoe {
+    width: 45vw;
+    height: 118px;
+}
+.table {
+    width: 45vw;
+    height: 118px;
+}
+.chair {
+    width: 45vw;
+    height: 118px;
+}
+footer {
+    width: 96vw;
+    height: 65px;
+    background-color: rgba(23,35,55,255);
+    margin-left: 6px;
+    margin-top: 1px;    
+}
+.fb {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.fa-facebook-f {
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.twitter {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.fa-twitter {
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.linkedIn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.fa-linkedin-in {
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.instagram {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.fa-instagram {
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.list {
+    display: flex;
+    margin-left: 85px;
+    padding-top: 10px;
+}
+.end {
+    color: white;
+    font-size: 10px;
+    margin-left: 78px;
+    margin-top: 5px;
+}
