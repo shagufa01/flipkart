@@ -17,9 +17,7 @@ nav {
 .logo-image {
     display: flex;
 }
-.notify {
-    margin-right: 18px;
-}
+
 .logo {
     width: 60px;
 }
@@ -168,12 +166,9 @@ span {
 }
 .slide1 {
     display: flex;
-    margin-top: 5px;
-    margin-left: 6px;
-    margin-right: 6px;
     justify-content: space-around;
-    margin-bottom: 8px;
     border-bottom: 1px solid gray;
+    margin: 5px 6px 8px 6px;
 }
 .box-dress {
     width: 150px;
@@ -208,7 +203,7 @@ span {
     margin-left: 10px;
     margin-top: 20px;
 }
-button {
+.view {
     width: 70px;
     height: 33px;
     border-radius: 10px;
@@ -328,59 +323,128 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
+.notify {
+    margin-right: 18px;
+}
+.log {
+    display: none;
+}
+@media (min-width:1024px) {
 
-@media (min-width:760px) {
-    .fa-bell {
-        margin-left: 593px;
-    }
-    .input {
-        width: 98vw;
-    }
-    .icon {
-        margin-left: -725px;
-    }
-    .fa-microphone {
-        margin-left: 680px;
-    }
-    .sale {
-        height: 225px;
-    }
-    .box1{
-        width: 190px;
-    }
-    .box2 {
-        width: 190px;
-    }
-    .box3 {
-        width: 190px;
-    }
-    .realme8 {
-        width: 190px;
-        height: 125px;
-    }
-    .realmeC20 {
-        width: 190px;
-        height: 125px;
-    }
-    .realme5G {
-        width: 190px;
-        height: 125px;
-    }
-    .one {
-        width: 350px;
-        height: 210px;
-    }
-    .two {
-        width: 350px;
-        height: 210px;
-    }
-    .three {
-        width: 350px;
-        height: 210px;
-    }
-    .four {
-        width: 350px;
-        height: 210px;
-    }
-    .slide1 {}
+.notify {
+    margin-right: 20px;
+}
+.input {
+     width: 98%; 
+} 
+.log {
+    display: inline;
+    background-color:rgb(4,133,206) ;
+    color: white;
+    width: 75px;
+    height: 25px;
+    border-width: thin;
+}
+.fa-microphone {
+    left: 96%;
+}
+.realme8{
+    width: 225px;
+    height: 160px;
+}
+.realmeC20 {
+    width: 225px;
+    height: 160px;
+}
+.realme5G {
+    width: 225px;
+    height: 160px;
+}
+.box1 {
+    width: 225px;
+    height: 240px;
+}
+.box2 {
+    width: 225px;
+    height: 240px;
+}
+.box3 {
+    width: 225px;
+    height: 240px;
+}
+.box-tv {
+    width: 300px;
+    height: 300px;
+}
+.box-poco {
+    width: 300px;
+    height: 300px;
+}
+.box-dress {
+    width: 300px;
+    height: 300px;
+}
+.box-iphone {
+    width: 300px;
+    height: 300px;
+}
+.one {
+    width: 300px;
+    height: 215px;
+}
+.two {
+    width: 300px;
+    height: 215px;
+}
+.three {
+    width: 300px;
+    height: 215px;
+}
+.four {
+    width: 300px;
+    height: 215px;
+}
+.slide1 {
+    justify-content: space-evenly;
+}
+.class1 {
+    height: 200px;
+    margin-bottom: 30px;
+}
+.class2 {
+    height: 200px;
+    margin-bottom: 30px;
+}
+.class3 {
+    height: 200px;
+}
+.class4 {
+    height: 200px;
+}
+.off {
+    height: 300px;
+}
+.cabinet {
+    height: 200px;
+}
+.shoe {
+    height: 200px;
+}
+.table {
+    height: 200px;
+}
+.chair {
+    height: 200px;
+}
+.brand h3 {
+    margin-left: 20px;
+}
+.view {
+    width: 85px;
+    border-radius: 10px;
+    margin-left: 730px;
+}
+footer {
+    margin-left: 20px;
+}
 }
